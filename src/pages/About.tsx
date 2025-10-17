@@ -12,22 +12,19 @@ const certifications = [
     title: "Programming In Java",
     issuer: "NPTEL",
     year: "2024",
-    logo: "/logos/nptel.png",
-    link: "https://nptelcertificate.example/java",
+    link: "./src/public/Programming in Java (2) (2).pdf",
   },
   {
     title: "DBMS",
     issuer: "NPTEL",
     year: "2025",
-    logo: "/logos/nptel.png",
-    link: "https://nptelcertificate.example/dbms",
+    link: "./src/public/Data Base Management System (1).pdf",
   },
   {
     title: "Linux Expert",
     issuer: "LinkedIn",
     year: "2025",
-    logo: "/logos/linkedin.png",
-    link: "https://linkedin.com/certificate/linux",
+    link: "./src/public/IntroductionToLinux_Linkedin.pdf",
   },
 ];
 
