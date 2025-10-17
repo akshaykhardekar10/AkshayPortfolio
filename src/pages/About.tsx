@@ -12,19 +12,19 @@ const certifications = [
     title: "Programming In Java",
     issuer: "NPTEL",
     year: "2024",
-    link: "./src/public/Programming in Java (2) (2).pdf",
+    link: "/Programming in Java (2) (2).pdf",
   },
   {
     title: "DBMS",
     issuer: "NPTEL",
     year: "2025",
-    link: "./src/public/Data Base Management System (1).pdf",
+    link: "/Data Base Management System (1).pdf",
   },
   {
     title: "Linux Expert",
     issuer: "LinkedIn",
     year: "2025",
-    link: "./src/public/IntroductionToLinux_Linkedin.pdf",
+    link: "/IntroductionToLinux_Linkedin.pdf",
   },
 ];
 
@@ -67,7 +67,7 @@ const About = () => {
 
               <div className="flex flex-wrap gap-4">
                 <a
-                  href="./src/public/AkshayKhardekar resume(x).pdf"
+                  href="/AkshayKhardekar resume(x).pdf"
                   download="Akshay_resume.pdf"
                 >
                   <Button variant="primary" icon={<Download size={18} />}>
@@ -76,7 +76,7 @@ const About = () => {
                 </a>
                 {/* View Resume */}
                 <a
-                  href="./src/public/AkshayKhardekar resume(x).pdf"
+                  href="/AkshayKhardekar resume(x).pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
