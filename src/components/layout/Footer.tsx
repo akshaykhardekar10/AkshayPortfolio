@@ -60,7 +60,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-4">Connect</h3>
             <div className="flex space-x-4">
               <motion.a 
-                href="https://github.com" 
+                href="https://github.com/akshaykhardekar10" 
                 target="_blank" 
                 rel="noreferrer"
                 aria-label="GitHub"
@@ -71,7 +71,7 @@ const Footer = () => {
                 <Github size={24} />
               </motion.a>
               <motion.a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/AkshayKhardekar" 
                 target="_blank" 
                 rel="noreferrer"
                 aria-label="LinkedIn"
@@ -93,7 +93,7 @@ const Footer = () => {
                 <Twitter size={24} />
               </motion.a>
               <motion.a 
-                href="mailto:hello@example.com" 
+                href="mailto:khardekarakshay33@gmail.com" 
                 aria-label="Email"
                 className="text-gray-600 dark:text-gray-400 hover:text-red-500 transition-colors"
                 whileHover={{ scale: 1.1 }}
