@@ -86,16 +86,21 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         </div>
         
         <div className="flex space-x-3 mt-4">
-          {project.demoUrl && (
-            <Button
-              variant="primary"
-              size="sm"
-              icon={<ExternalLink size={16} />}
-              onClick={() => window.open(project.demoUrl, '_blank')}
-            >
-              Live Demo
-            </Button>
-          )}
+          {project.demoUrl ? (
+              <a
+                href={project.demoUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block text-primary-600 dark:text-primary-400 hover:underline font-medium"
+              >
+                Live Demo
+              </a>
+            ) : (
+              <p className="text-sm text-gray-500 dark:text-gray-400 italic">
+                🚧 Demo coming soon
+              </p>
+            )}
+
           
           {project.githubUrl && (
             <Button
