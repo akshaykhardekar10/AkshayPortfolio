@@ -67,7 +67,7 @@ const About = () => {
 
               <div className="flex flex-wrap gap-4">
                 <a
-                  href="/AkshayKhardekar resume(x).pdf"
+                  href="/Akshay_Khardekar_Java_Resume.pdf"
                   download="Akshay_resume.pdf"
                 >
                   <Button variant="primary" icon={<Download size={18} />}>
@@ -76,7 +76,7 @@ const About = () => {
                 </a>
                 {/* View Resume */}
                 <a
-                  href="/AkshayKhardekar resume(x).pdf"
+                  href="/Akshay_Khardekar_Java_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -107,7 +107,7 @@ const About = () => {
                   />
                 </div>
 
-  <div className="mt-4 bg-primary-600 text-white px-6 py-3 rounded-lg shadow-lg text-center">
+                <div className="mt-4 bg-primary-600 text-white px-6 py-3 rounded-lg shadow-lg text-center">
                   <span className="text-lg font-semibold">
                     {" "}
                     Student (open for work){" "}
